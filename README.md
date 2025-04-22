@@ -1,12 +1,12 @@
 # Fuu
 
-Windows后台进程优先级和CPU限制工具
+安卓视频优化工具
 
 ## 功能
-- 设置后台进程优先级
-- 限制后台进程CPU使用率
-- 监控高CPU占用进程
-- 绑定进程到指定CPU核心
+- 监控高CPU占用的视频应用进程
+- 绑定视频应用进程到指定CPU核心
+- 限制视频应用CPU使用率
+- 优化视频应用进程优先级
 
 ## 使用说明
 1. 安装Rust环境
@@ -17,11 +17,11 @@ Windows后台进程优先级和CPU限制工具
 
 ## 配置示例
 ```
-[process]
-background_priority = 1
-max_cpu_usage = 0.5
-cpu_threshold = 80.0
-bind_cores = [0, 1]
+[video]
+priority = 3
+max_cpu_usage = 0.7
+cpu_threshold = 70.0
+bind_cores = [2, 3]
 ```
 
 ## 贡献指南
