@@ -1,0 +1,6 @@
+id=your_module_id
+name=你的模块名称
+author=你的名字
+version=1.0
+versionCode=1
+description=这是一个 Magisk 模块示例

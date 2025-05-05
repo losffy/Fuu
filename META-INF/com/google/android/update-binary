@@ -1,0 +1,3 @@
+#!/system/bin/sh
+# 这是一个占位符 update-binary 脚本，实际 Magisk 安装时会被忽略
+exit 0
